@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApplicationPrimenumberTest</string>
+    <string name="screen_first">First Screen</string>
+    <string name="screen_second">Second Screen</string>
+    <string name="enternumber">Enter Number</string>
+    <string name="submit">Submit</string>
+</resources>

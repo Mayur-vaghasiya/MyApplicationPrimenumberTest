@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/padding_margin_2"
+    android:layout_marginTop="@dimen/padding_margin_2"
+    android:padding="@dimen/height_width_5"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textviewNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_width_50"
+        android:gravity="center_vertical"
+        android:padding="@dimen/height_width_4"
+        android:textColor="@color/toolbarcolornew"
+        android:textSize="@dimen/text_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_width_1"
+        android:background="@color/toolbarcolornew"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textviewNumCombination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/height_width_50"
+        android:padding="@dimen/height_width_4"
+        android:textColor="@color/evoncolor"
+        android:textSize="@dimen/text_14" />
+
+</LinearLayout>
